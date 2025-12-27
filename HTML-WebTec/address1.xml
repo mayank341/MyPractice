@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<address>
+  <name>
+    <first>MAYANK</first>
+    <last>Kumar</last>
+  </name>
+  <email>mayank@email.com</email>
+  <phone>1234567890</phone>
+  <birthday>
+    <year>1990</year>
+    <month>&apos;</month>
+    <day>&lt;</day>
+  </birthday>
+</address>

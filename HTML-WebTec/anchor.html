@@ -1,0 +1,61 @@
+<!-- // attribute selectors :  
+attribute[selectors]  -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* a[target=_blank]{
+            background-color: red;
+            color:rgb(208, 218, 14);
+        }
+       /* img[title~="flower"] {
+  border: 2px solid green;
+} */
+         img[title $="flower"]
+         {
+            border :2px solid green;
+         } */
+         a:hover{
+            background-color: red;
+         }
+         a:visited{
+            color:green;         }
+            a:active{
+                color:aqua
+
+            }
+            a:focus{
+                background-color: yellow;
+            }
+            img[title=red-flower]{
+                background-color: aqua;
+            }
+    </style>
+</head>
+<body>
+    <h1> the anchor tag :</h1>
+    <a href="a.html" target="_blank"> LINk1</a><br>
+    <a href="b.html" traget="active"> LINk2</a><br>
+    <a href="c.html" target="focus"> LINk3</a>
+
+    <!-- <img src="" title="flower">
+    <img src="" title="sun">
+    img src="" title="flower_n"> -->
+    <img src="https://picsum.photos/150?random=1" title="red flower" alt="Flower Image">
+  <img src="https://picsum.photos/150?random=2" title="cute cat" alt="Cat Image">
+  <img src="https://picsum.photos/150?random=3" title="sunflower" alt="Sunflower Image">
+  <form>
+    <input type="text">
+    <div>
+        <p> welcome here </p>
+        <button>click here </button>
+    </div>
+  </form>
+</body>
+</html>

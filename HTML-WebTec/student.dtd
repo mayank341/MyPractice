@@ -1,0 +1,23 @@
+<!ELEMENT students (student+)>
+<!ELEMENT student (name, email, phone)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+
+<!ATTLIST student id CDATA #REQUIRED>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- // implied-- optional 
+// anmTOKENS -----MULtiple values . -->

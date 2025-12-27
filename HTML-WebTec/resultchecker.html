@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Result Checker</title>
+  <style>
+    /* Border box */
+    .box {
+      width: 200px;
+      height: 200px;
+      border: 2px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 50px auto;
+    }
+    .square-btn {
+      width: 80px;
+      height: 80px;
+      background-color: lightblue;
+      border: 2px solid black;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    /* Result text */
+    #output {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h2 style="text-align:center;">Pass/Fail Checker</h2>
+
+  <!-- Box with square button -->
+  <div class="box">
+    <button class="square-btn" onclick="checkResult()">Click</button>
+  </div>
+  <!-- Place to show result -->
+  <p id="output"></p>
+  <script>
+    function checkResult() {
+      let result = prompt("Enter your marks:");
+      result = Number(result);
+      if (result > 50) {
+        alert("Pass 🎉");
+        document.getElementById("output").innerHTML =
+          "<span style='color:green'>You Passed ✅</span>";
+      } else {
+        alert("Fail ❌");
+        document.getElementById("output").innerHTML =
+          "<span style='color:red'>You Failed ❗</span>";
+      }
+    }
+  </script>
+</body>
+</html>
+
+
+<!-- wap to create a tutorial website using html and css  -->
+ inline css,
+ 
